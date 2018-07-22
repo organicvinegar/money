@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val etname:EditText = findViewById(R.id.ETname) as EditText
+        val etname:EditText = findViewById(R.id.ETmoney) as EditText
         val btok:Button = findViewById(R.id.BTok) as Button
         val intent = Intent(this,select::class.java)
 
