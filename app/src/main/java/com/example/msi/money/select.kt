@@ -6,6 +6,16 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 
+/**
+ * 클레스 이름은 명사형
+ * 메소드 이름은 동사, 형용상 형으로 작성
+ * 클레스 명은 대문자로 시작
+ * 메소드 명은 소문자로 시작
+ * 크래스, 메소드 명은 java에서는 camelcase 로 작성이 일반 적임
+ *
+ * 예 select -> Select
+ * 예 App Compat Activity -> AppCompatActivity
+ */
 class select : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
