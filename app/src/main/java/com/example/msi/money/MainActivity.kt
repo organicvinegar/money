@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this,select::class.java)
 
         // activity_main 에 등록된 값은 kotlin에서는 findViewById(R.id.BTok) 으로 접근 하지 않아도 되며
-        // 명확 하게 ID 라는 것으로 부여 하면 됨
+        // 명확 하게 ID 라는 것으로 부여 하면 됨 수정
         BTok.setOnClickListener {
             if (etname.length()<=0) {
                 Toast.makeText(this,"이름을 입력해 주세요",Toast.LENGTH_SHORT).show()
