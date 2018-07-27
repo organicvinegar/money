@@ -13,17 +13,25 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <TextView
-            android:id="@+id/TV1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="월급" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/BT1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/TV1" />
+            <TextView
+                android:id="@+id/TV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="월급" />
+
+            <Button
+                android:id="@+id/BT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV1"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
